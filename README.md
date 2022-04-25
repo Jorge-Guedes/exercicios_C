@@ -5,6 +5,7 @@ Exercícios resolvidos e inspirados no site [Python Brasil](https://wiki.python.
 - [Estruturas sequenciais](#estruturas-sequenciais)
 - [Estruturas de Decisao](#estruturas-de-decisao)
 - [Estruturas de Repeticao](#estruturas-de-repeticao)
+- [Listas](#listas)
 
 ### Estruturas sequenciais
 
@@ -914,3 +915,288 @@ Imprima no final a soma da série.
 
 Sendo H= 1 + 1/2 + 1/3 + 1/4 + ... + 1/N,
 Faça um programa que calcule o valor de H com N termos.
+
+### Listas
+
+#### [Exercicio 01](4_Listas/01_cinco_numeros.cpp)
+
+Faça um Programa que leia um vetor de 5 números inteiros e mostre-os.
+
+#### [Exercicio 02](4_Listas/02_dez_numeros.cpp)
+
+Faça um Programa que leia um vetor de 10 números reais
+e mostre-os na ordem inversa.
+
+#### [Exercicio 03](4_Listas/03_notas.cpp)
+
+Faça um Programa que leia 4 notas, mostre as notas e a média na tela.
+
+#### [Exercicio 04](4_Listas/04_consoantes.cpp)
+
+Faça um Programa que leia um vetor de 10 caracteres,
+e diga quantas consoantes foram lidas. Imprima as consoantes.
+
+#### [Exercicio 05](4_Listas/05_numeros_pares_impares.cpp)
+
+Faça um Programa que leia 20 números inteiros e armazene-os num vetor.
+Armazene os números pares no vetor PAR e os números IMPARES no vetor impar.
+Imprima os três vetores.
+
+#### [Exercicio 06](4_Listas/06_notas_dez_alunos.cpp)
+
+Faça um Programa que peça as quatro notas de 10 alunos,
+calcule e armazene num vetor a média de cada aluno, imprima o
+número de alunos com média maior ou igual a 7.0.
+
+#### [Exercicio 07](4_Listas/07_vetor_inteiros.cpp)
+
+Faça um Programa que leia um vetor de 5 números inteiros,
+mostre a soma, a multiplicação e os números.
+
+#### [Exercicio 08](4_Listas/08_idade_altura.cpp)
+
+Faça um Programa que peça a idade e a altura de 5 pessoas,
+armazene cada informação no seu respectivo vetor.
+Imprima a idade e a altura na ordem inversa a ordem lida.
+
+#### [Exercicio 09](4_Listas/09_soma_quadrados.cpp)
+
+Faça um Programa que leia um vetor A com 10 números inteiros,
+calcule e mostre a soma dos quadrados dos elementos do vetor.
+
+
+#### [Exercicio 10](4_Listas/10_tres_vetores.cpp)
+
+Faça um Programa que leia dois vetores com 10 elementos cada.
+Gere um terceiro vetor de 20 elementos, cujos valores deverão ser
+compostos pelos elementos intercalados dos dois outros vetores.
+
+#### [Exercicio 11](4_Listas/11_quatro_vetores.cpp)
+
+Altere o programa anterior, intercalando 3 vetores de 10 elementos cada.
+
+#### [Exercicio 12](4_Listas/12_alunos_altos.cpp)
+
+Foram anotadas as idades e alturas de 30 alunos.
+Faça um Programa que determine quantos alunos com mais de 13 anos
+possuem altura inferior à média de altura desses alunos.
+
+#### [Exercicio 13](4_Listas/13_temperaturas.cpp)
+
+Faça um programa que receba a temperatura média de cada mês do ano e
+armazene-as em uma lista. Após isto, calcule a média anual das 
+temperaturas e mostre todas as temperaturas acima da média anual, 
+se em que mês elas ocorreram
+(mostrar o mês por extenso: 1 – Janeiro, 2 – Fevereiro, . . . ).
+
+#### [Exercicio 14](4_Listas/14_detetive.cpp)
+
+Utilizando listas faça um programa que faça 5 perguntas
+para uma pessoa sobre um crime.
+
+As perguntas são:
+
+    a) "Telefonou para a vítima?"
+    b) "Esteve no local do crime?"
+    c) "Mora perto da vítima?"
+    d) "Devia para a vítima?"
+    e) "Já trabalhou com a vítima?"
+
+O programa deve no final emitir uma classificação sobre a
+participação da pessoa no crime. Se a pessoa responder positivamente
+a 2 questões ela deve ser classificada como "Suspeita",
+entre 3 e 4 como "Cúmplice" e 5 como "Assassino".
+Caso contrário, ele será classificado como "Inocente".
+
+#### [Exercicio 15](4_Listas/15_relatorio_notas.cpp)
+
+Faça um programa que leia um número indeterminado de valores,
+correspondentes a notas, encerrando a entrada de dados quando for
+informado um valor igual a -1 (que não deve ser armazenado).
+
+Após esta entrada de dados, faça:
+
+a) Mostre a quantidade de valores que foram lidos;
+b) Exiba todos os valores na ordem em que foram informados, um ao lado do outro;
+c) Exiba todos os valores na ordem inversa à que foram informados, um abaixo do outro;
+d) Calcule e mostre a soma dos valores;
+e) Calcule e mostre a média dos valores;
+f) Calcule e mostre a quantidade de valores acima da média calculada;
+g) Calcule e mostre a quantidade de valores abaixo de sete;
+h) Encerre o programa com uma mensagem;
+
+
+#### [Exercicio 16](4_Listas/16_vendedores.cpp)
+
+Utilize uma lista para resolver o problema a seguir.
+Uma empresa paga seus vendededores com base em comissoes. O vendedor
+recebe $200 por semana mais 9 por cento de suas vendas brutas daquela semana.
+Por exemplo, um vendedor que teve vendas brutas e $3000 em uma semana
+recebe $200 mais 9 por cento de $3000, ou seja, um total de $470.
+Escreva um programa (usando um array de contadores) que determine
+quantos vendedores receberam salários nos seguintes intervalos de valores:
+
+    a) $200 - $299
+    b) $300 - $399
+    c) $400 - $499
+    d) $500 - $599
+    e) $600 - $699
+    f) $700 - $799
+    g) $800 - $899
+    h) $900 - $999
+    i) $1000 em diante
+
+Desafio: Crie uma fórmula para chegar na posição da lista a partir do salário,
+sem fazer vários ifs aninhados.
+
+#### [Exercicio 17](4_Listas/17_saltos.cpp)
+
+Em uma competição de salto em distância cada atleta tem direito a cinco saltos.
+O resultado do atleta será determinado pela média dos cinco valores restantes.
+Você deve fazer um programa que receba o nome e as cinco distâncias alcançadas
+pelo atleta em seus saltos e depois informe o nome, os saltos e a média dos saltos.
+
+O programa deve ser encerrado quando não for informado o nome do atleta.
+A saída do programa deve ser conforme o exemplo abaixo:
+
+    Atleta:             Rodrigo Curvêllo
+    Primeiro Salto:     6.5m
+    Segundo Salto:      6.1m
+    Terceiro Salto:     6.2m
+    Quarto Salto:       5.4m
+    Quinto Salto:       5.3m
+
+    Resultado final:
+
+    Atleta:             Rodrigo Curvêllo
+    Saltos: 6.5 - 6.1 - 6.2 - 5.4 - 5.3
+    Média dos saltos: 5.9m
+
+#### [Exercicio 18](4_Listas/18_melhor_atleta.cpp)
+
+Uma grande emissora de televisão quer fazer uma enquete entre
+os seus telespectadores para saber qual o melhor jogador após cada jogo.
+Para isto, faz-se necessário o desenvolvimento de um programa,
+que será utilizado pelas telefonistas, para a computação dos votos.
+Sua equipe foi contratada para desenvolver este programa utilizando
+a linguagem de programação C++. Para computar cada voto, a telefonista
+digitará um número, entre 1 e 23, correspondente ao numero da camisa
+do jogador igual zero, indica que a votação foi encerrada. Se um número
+inválido for digitado, o programa deve ignorá-lo, mostrando uma breve mensagem
+de aviso, e voltando a pedir outro número.
+Após o final da votação, o programa deverá exibir:
+
+    a) O total de votos computados;
+    b) Os números e respectivos jogadores que receberam votos;
+    c) O percentual de votos de cada um destes jogadores;
+    d) O número do jogador escolhido como o melhor jogador da partida, juntamente com o
+    número de votos e o percentual de votos dados a ele.
+
+#### [Exercicio 19](4_Listas/19_sistemas_operacionais.cpp)
+
+Uma empresa de pesquisas precisa tabular os resultados de seguinte
+enquete feita a uma grande quantidade de organizações:
+
+"Qual o melhor Sistema Operacional para uso em servidores?"
+
+As possíveis respostas são:
+
+    1 - Windows Server
+    2 - Unix
+    3 - Linux
+    4 - Netware
+    5 - Mac OS
+    6 - Outro
+
+Você foi contratado para desenvolver um programa que leia o resultado da
+enquete e informe ao final o resultado da mesma. O programa deverá
+ler os valores até ser informado o valor 0, que encerra a entrada de dados.
+Não deverão ser aceitos valores além dos válidos para o programa (0 a 6).
+Os valores referentes a cada uma das opções devem ser armazenados num vetor.
+Após os dados terem sido completamente informados, o programa deverá calcular
+o percentual de cada um dos concorrentes e informar o vencedor da enquete.
+
+#### [Exercicio 20](4_Listas/20_abono_tabajara.cpp)
+
+As Organizações Tabajara resolveram dar um abono aos seus colaboradores
+em reconhecimento ao bom resultado alcançado durante o ano que passou.
+Para isto contratou você para desenvolver a aplicação que servirá como
+uma projeção de quanto será gasto com o pagamento deste abono.
+
+Após reuniões envolvendo a diretoria executiva, a diretoria financeira
+e os representantes do sindicato laboral, chegou-se a seguinte forma de cálculo:
+
+I) Cada funcionário receberá o equivalente a 20% do seu salário bruto de dezembro;
+
+O piso do abono será de 100 reais, isto é, aqueles funcionários cujo salário
+for muito baixo, recebem este valor mínimo. Neste momento, não se deve ter
+nenhuma preocupação com colaboradores com menor tempo de casa, descontos,
+impostos ou outras particularidades. Seu programa deverá permitir a digitação
+do salário de um número indefinido (desconhecido) de salários. Um valor de
+salário igual a 0 (zero) encerra a digitação. Após a entrada de todos os dados
+o programa deverá calcular o valor do abono concedido a cada colaborador,
+de acordo com a regra definida acima. Ao final, o programa deverá apresentar:
+
+    a) O salário de cada funcionário, juntamente com o valor do abono;
+    b) O número total de funcionário processados;
+    c) O valor total a ser gasto com o pagamento do abono;
+    d) O número de funcionários que receberá o valor mínimo de 100 reais;
+    e) O maior valor pago como abono;
+
+#### [Exercicio 21](4_Listas/21_consumo_carros.cpp)
+
+Faça um programa que carregue uma lista com os modelos de cinco carros
+(exemplo de modelos: FUSCA, GOL, VECTRA etc). Carregue uma outra lista
+com o consumo desses carros, isto é, quantos quilômetros cada um desses
+carros faz com um litro de combustível. Calcule e mostre:
+
+a) O modelo do carro mais econômico;
+b) Quantos litros de combustível cada um dos carros cadastrados consome para percorrer
+uma distância de 1000 quilômetros e quanto isso custará, considerando que a gasolina custe
+R$ 2,25 o litro.
+
+#### [Exercicio 22](4_Listas/22_mouses.cpp)
+
+Sua organização acaba de contratar um estagiário para trabalhar no Suporte
+de Informática, com a intenção de fazer um levantamento nas sucatas encontradas
+nesta área. A primeira tarefa dele é testar todos os cerca de 200 mouses que
+se encontram lá, testando e anotando o estado de cada um deles,
+para verificar o que se pode aproveitar deles.
+
+Foi requisitado que você desenvolva um programa para registrar este levantamento.
+O programa deverá receber um número indeterminado de entradas, cada uma contendo:
+
+    a) Um número de identificação do mouse;
+    b) O tipo de defeito: (necessita da esfera, necessita de limpeza, necessita troca do
+    cabo ou conector quebrado ou inutilizado);
+    c) Uma identificação igual a zero encerra o programa.
+
+
+#### [Exercicio 23](4_Listas/23_espaco_disco.cpp)
+
+A ACME Inc, uma empresa de 500 funcionários, está tendo problemas de
+espaço em disco no seu servidor de arquivos. Para tentar resolver este
+problema, o Administrador de Rede precisa saber qual o espaço ocupado
+pelos usuários, e identificar os usuários com maior espaço ocupado.
+Através de um programa, baixado da Internet, ele conseguiu
+gerar o seguinte arquivo, chamado "usuarios.txt":
+
+    alexandre (456123789 bytes)
+    anderson  (1245698456 bytes)
+    antonio   (123456456 bytes)
+    carlos    (91257581 bytes)
+    cesar     (987458 bytes)
+    rosemary  (789456125 bytes)
+
+Neste arquivo, o nome do usuário possui 15 caracteres. A partir deste arquivo, você deve criar
+um programa que gere um relatório, chamado "relatorio.txt".
+
+#### [Exercicio 24](4_Listas/24_dados.cpp)
+
+Faça um programa que simule um lançamento de dados.
+Lance o dado 100 vezes e armazene os resultados em um vetor.
+Depois, mostre quantas vezes cada valor foi conseguido.
+
+Dica: Use um vetor de contadores (1-6) e uma função para gerar
+numeros aleatórios, simulando os lançamentos dos dados.
+
